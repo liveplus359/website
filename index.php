@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Life Plus - Your Healthy Zone!</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
 </head>
 <body onload="getLocation();">
 <p id="location"></p>
