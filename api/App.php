@@ -23,4 +23,6 @@ class App {
 
 
 $url = $fsURL . "?client_id=" . $foursquareId . "&client_secret=" . $foursquareSecret . "&ll=" . "43.8,25.9" . "&query=" . "sushi" . "&v=20140806" . "&m=foursquare";
-App::doGet($url);
+echo '<pre>';
+print_r(App::doGet($url));
+echo '</pre>';
