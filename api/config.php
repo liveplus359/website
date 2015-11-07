@@ -8,5 +8,6 @@ $foursquareSecret = 'IEJUIMQ2MBPUU1W4ZAP50M04I4F0FINWJOQIYBM55T0S0NOA';
 
 /** Facebook */
 $facebookId = '750598631739997';
+secret = 53f13e568f3cf0d485538cf579438884
 
 $cities = array("Sofia", "Plovdiv", "Ruse", "Varna", "Burgas", "Silistra", "Pleven");
