@@ -1,10 +1,12 @@
 <?php
 
 /**
- * Created by spont4e on 07/11/2015
+ * App class
  */
-class App {
 
+require('config.php');
+
+class App {
 
     public static function doPost($url, $postdata) {
 
