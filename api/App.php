@@ -1,10 +1,8 @@
 <?php
 
-
 /**
  * App class
  */
-
 require('config.php');
 
 class App {
@@ -24,8 +22,7 @@ class App {
 
 }
 
-
 $url = $fsURL . "?client_id=" . $foursquareId . "&client_secret=" . $foursquareSecret . "&ll=" . "43.8,25.9" . "&query=" . "sushi" . "&v=20140806" . "&m=foursquare";
-echo '<pre>';
-print_r(App::doGet($url));
-echo '</pre>';
+echo $url;
+//print_r(App::doGet($url));
+//echo '</pre>';
